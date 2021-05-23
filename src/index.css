@@ -41,8 +41,11 @@ h1{
 }
 #root> h1:nth-child(1){
   margin: 2%;
-  font-size: 3rem; 
-  
+  padding: 1% 10% 2% 10%;
+  font-size: 3rem;
+  background-color: rgba(255, 255, 255, 0.1);  
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
 }
 .timer{
   margin: 0;
@@ -77,6 +80,8 @@ button{
   font-size: 1.5rem;
   font-weight: 500;
   letter-spacing: .8rem;
-  background-color: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(60px);
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.00001);
+  backdrop-filter: blur(10px);
+  font-weight: 700;
 }

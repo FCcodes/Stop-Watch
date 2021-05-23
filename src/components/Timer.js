@@ -2,7 +2,7 @@ import React from 'react'
 import {useState} from 'react'
 
 const Timer = () => {
-    const[time, setTime] = useState({s:0, m:59, h:9})
+    const[time, setTime] = useState({s:0, m:0, h:0})
     //const[runTimer, setRunTimer] = useState(true)
     const [interv, setInterv] = useState();
 
